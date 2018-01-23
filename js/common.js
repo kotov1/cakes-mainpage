@@ -6,7 +6,7 @@ $(function() {
 	$(".slider_main").slick({
 		infinite: true,
 		arrows: true,
-		autoplay: false,
+		autoplay: true,
 		autoplaySpeed: 5000,
 		responsive: [{
 
