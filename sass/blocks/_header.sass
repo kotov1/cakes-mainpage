@@ -1,0 +1,713 @@
+header
+	line-height: 1
+
+.headmain
+	min-height: 54px
+	background-color: rgba(68, 68, 68, .9)
+	width: 100%
+	display: block
+	margin: 0 auto
+	padding: 0 0
+
+
+	.menuHead__Items
+		text-indent: 0
+		margin-left: 0
+		padding-left: 0
+		li
+			float: left
+			list-style-type: none
+			padding: 2px 21px
+			text-indent: 0
+			margin-left: 0
+			padding-left: 0
+		li:nth-child(7)
+			padding: 2px 0px
+	.menuHead__Href:link
+		//padding: 10px
+		text-decoration: none
+		color: #fff
+		border-bottom: 1px solid #fff
+		padding-bottom: 3px
+		font: 16px/1 "DaxlinePro-Regular", sans-serif
+	.menuHead__Href:visited
+		text-decoration: none
+		color: #fff
+	.menuHead__Href:hover
+		text-decoration: none
+		color: #bbb
+		cursor: pointer
+		transition: all 0.3s
+	.menuHead__Href:active
+		text-decoration: none
+		color: #fff
+			
+	.menuHead__Text
+		position: relative
+		p
+			margin: 0 0 2px 0
+			color: #BCBCBC
+			font: 11px/1.15 "DaxlinePro-Regular", sans-serif	
+	
+	.menuHead__Text:before
+		content: ""
+		width: 1px
+		height: 26px
+		display: block
+		position: absolute
+		z-index: 5
+		top: 0
+		left: -10px
+		border-left: 1px solid #8B8B8B
+		transform: rotate(15deg)
+
+
+
+	.Headinf__telephoneMin
+		width: 220px
+		//height: 102px
+		display: none
+		//float: left
+		margin: 20px 0
+	.Headinf__KatalogTextMin
+		line-height: 40px
+		padding: 0 0 0 37px
+		color: #8DC900
+	.Headinf__telephoneMin_timeMin
+		margin: 4px 0 1px 0
+		//line-height: 10px
+		//font-size: 11px
+		color: #A2A2A2
+		//text-indent: 100px
+		font-size: 13px
+		line-height: 1
+		font-family: "IskraCYR-Thin", sans-serif
+	.Headinf__telephoneMin_numberMin
+		margin: -3px 0 3px 0
+		font-size: 18px
+		line-height: 1
+		color: #fff
+		font-family: "IskraCYR-Thin", sans-serif
+		//font-weight: 600
+		span
+			//font-size: 25px
+			font: 29px/1 "IskraCYR-Thin", sans-serif
+			//font-weight: 900						
+	.Headinf__telephoneMin_linkMin
+		text-decoration: none
+		color: #fff
+		border-bottom: 1px dashed #fff
+		padding: 0 0 0 0 
+		font-family: "DaxlinePro-Light", sans-serif
+		font-size: 12px
+		line-height: 30px
+		//margin: 4px 0 0 0
+	.menuHead__ItemTextMini
+		display: none
+	.NameTown
+		float: right
+		margin: 0 24px 0 0
+		position: relative
+		.NameTown__Oure
+			display: inline-block
+			margin: 0
+			padding: 2px 1px 2px 0px
+			color: #7D7979
+			font: 16px/1 "DaxlinePro-Light", sans-serif
+		.NameTownSelect
+			background-color: transparent
+			border: none
+			outline: 0
+			min-width: 145px
+			height: 25px
+			color: #fff
+			//font-size: 1rem
+			padding-bottom: 5px
+			border-bottom: 1px dashed #fff
+			font: 15px/1.15 "DaxlinePro-Regular", sans-serif
+			-webkit-appearance: none
+			/* for FF */
+			-moz-appearance: none
+			text-indent: 0.01px
+			text-overflow: ''
+			/* for IE */
+			-ms-appearance: none
+			appearance: none!important
+			//position: relative
+			&::-ms-expand
+				display: none
+			option
+				background-color: #4c4c4c
+				color: #fff
+				outline: 0
+				border: 1px solid #4c4c4c
+	.NameTown:after
+		content: ''
+		display: block
+		width: 8px
+		height: 8px
+		z-index: 5
+		position: absolute
+		top: 4px
+		right: 4px
+		//margin-top: -(1em/2)
+		pointer-events: none
+		border-top: 1px solid #fff
+		border-left: 1px solid #fff
+		//border-right: 5px solid transparent
+		transform: rotate(224deg)
+
+
+
+	/* Firefox fix */
+	.NameTown:-moz-any(.NameTown)
+		&:before
+			pointer-events: none
+			z-index: 1
+
+		&:after
+			z-index: 5
+			height: 8px
+			right: 10px
+			top: 7px
+
+
+	
+	.menuSocial
+		float: right
+		padding: 7px 0px
+
+
+
+
+
+		.menuSocial__Items_size
+			width: 50px
+			height: 50px
+			margin: 0 8px
+			color: #fff
+
+
+.HeadinfMain
+	width: 100%
+	//min-height: 50px
+	background-color: #444444
+	padding: 6px 0 0 0
+
+.Headinf
+	.Headinf__Logo
+		width: 115px
+		height: 85px
+		float: left
+	.Headinf__Katalog
+		width: 130px
+		height: 45px
+		border: 2px solid #90B100
+		border-radius: 22px
+		float: left
+		text-align: center
+		vertical-align: middle
+		margin: 25px 31px 10px 42px
+		background-image: url("../img/TortLogo.png")
+		background-repeat: no-repeat
+		background-size: 20% 55%
+		background-position: 14% 30%
+	.Headinf__telephone
+		width: 220px
+		height: 102px
+		display: block
+		float: left
+		margin: 0 0 0 166px
+	.Headinf__KatalogText
+		line-height: 40px
+		padding: 0 0 0 37px
+		color: #8DC900
+	.Headinf__telephone_time
+		margin: 4px 0 1px 0
+		//line-height: 10px
+		//font-size: 11px
+		color: #A2A2A2
+		text-indent: 100px
+		font-size: 13px
+		line-height: 1
+		font-family: "IskraCYR-Thin", sans-serif
+	.Headinf__telephone_number
+		margin: -3px 0 3px 0
+		font-size: 18px
+		line-height: 1
+		color: #fff
+		font-family: "IskraCYR-Thin", sans-serif
+		//font-weight: 600
+		span
+			//font-size: 25px
+			font: 29px/1 "IskraCYR-Thin", sans-serif
+			//font-weight: 900						
+	.Headinf__telephone_link
+		text-decoration: none
+		color: #fff
+		border-bottom: 1px dashed #fff
+		padding: 0 0 0 0 
+		font-family: "DaxlinePro-Light", sans-serif
+		font-size: 12px
+		line-height: 30px
+		//margin: 4px 0 0 0
+	.Headinf__telephone_link:hover
+		color: #bbb
+		transition: all 0.3s
+.HeadKabinet
+	//width: 200px
+	height: 50px
+	margin: 20px 0 0 0
+	float: right
+	.HeadKabinetKart
+		width: 85px
+		height: 60px
+		float: right
+		position: relative
+		.HeadKabinetKart__Korzina
+			width: 52px
+			height: 52px
+			//background-image: url("../img/Kart.png")
+			//background-repeat: no-repeat
+			//background-size: 45% 40%
+			//background-position: 35% 50%
+			position: relative
+			//z-index: 5
+			border: 1px solid #8FAF00
+			border-radius: 50%
+			margin: 3px 0 0 5px
+			display: inline-block
+			vertical-align: center
+			text-align: center
+			i
+				display: inline-block
+				//vertical-align: center
+				//text-align: center
+				color: #8FAF00
+				margin: 16px 0 0 -5px
+				font-size: 19px
+				
+		.HeadKabinetKart__number
+			//width: 25px
+			//height: 17px
+			position: absolute
+			z-index: 5
+			border: 1px solid #8FAF00
+			border-radius: 10px
+			left: 40px
+			top: 18px
+			color: #8FAF00
+			font-size: 11px
+			line-height: 1.0
+			padding: 1px 4px
+			background-color: #414141
+			font-family: 'DaxlinePro-Regular', sans-serif
+	.HeadKabinetLove
+		width: 85px
+		height: 60px
+		float: right
+		display: inline-block
+		vertical-align: center
+		text-align: center
+		//background-image: url("../img/Love.png")
+		//background-repeat: no-repeat
+		//background-size: 30% 30%
+		//background-position: 30% 50%
+		position: relative
+		i
+			display: inline-block
+			//vertical-align: center
+			//text-align: center
+			color: #8FAF00
+			margin: 20px auto
+			font-size: 17px
+	.HeadKabinetLove:before
+		content: ""
+		width: 1px
+		height: 28px
+		display: block
+		position: absolute
+		z-index: 5
+		top: 15px
+		left: 10px
+		border-left: 1px dotted #8B8B8B
+		transform: rotate(15deg)
+
+
+
+	.HeadKabinetFace
+		width: 40px
+		height: 60px
+		float: right
+		display: inline-block
+		vertical-align: center
+		text-align: center
+		//background-image: url("../img/Face.png")
+		//background-repeat: no-repeat
+		//background-size: 50% 30%
+		//background-position: 80% 50%
+		position: relative
+		i
+			display: inline-block
+			//vertical-align: center
+			//text-align: center
+			color: #8FAF00
+			margin: 20px auto
+			font-size: 17px
+	.HeadKabinetFace:before
+		content: ""
+		width: 1px
+		height: 28px
+		display: block
+		position: absolute
+		z-index: 5
+		top: 15px
+		left: -13px
+		border-left: 1px dotted #8B8B8B
+		transform: rotate(15deg)
+
+
+
+
+.HeadSearch
+	width: 333px
+	height: 50px
+	float: right
+	margin: 32px 56px 0 0
+	position: relative
+	display: block
+
+	.HeadSearch__content
+		width: 100%
+		height: 33px
+		//border: 1px solid #A2A2A2
+		//border-radius: 10px
+		//padding: 0px 0px
+		position: relative
+	.HeadSearch__Text
+		color: #A2A2A2
+		font-size: 16px
+		margin: 0
+		width: 100%
+		height: 33px
+		border: 1px solid #A2A2A2
+		border-radius: 10px
+		padding: 0px 10px
+		background-color: #444444
+		outline: none
+		font-family: 'DaxlinePro-Regular', sans-serif
+
+	.HeadSearch__Text::-webkit-input-placeholder
+		color: #A2A2A2
+		opacity: 1
+
+	.HeadSearch__Text:-moz-placeholder
+		color: #A2A2A2
+		opacity: 1
+
+	.HeadSearch__Text::-moz-placeholder
+		color: #A2A2A2
+		opacity: 1
+
+	.HeadSearch__Text:-ms-input-placeholder
+		color: #A2A2A2
+		opacity: 1
+
+
+	.HeadSearch__Text:focus
+		border: 1px solid #8FAF00
+	.HeadSearch__logo1
+		position: absolute
+		right: 13px
+		top: -2px
+		width: 30px
+		height: 30px
+		z-index: 10
+		border: 1px solid #A2A2A2
+		border-radius: 50%
+		box-shadow: 0px 0px 0px 3px #444444
+		background-color: #444444
+	.HeadSearch__logo2
+		position: absolute
+		right: 12px
+		top: 22px
+		width: 1px
+		height: 17px
+		z-index: 11
+		border-left: 1px solid #A2A2A2
+		transform: rotate(-38deg)
+		box-shadow: 0px 3px 0px 3px #444444
+
+
+.HeadSearch:before
+	content: ""
+	width: 1px
+	height: 55px
+	display: block
+	position: absolute
+	z-index: 5
+	top: -13px
+	left: -30px
+	border-left: 1px dotted #8B8B8B
+	transform: rotate(20deg)	
+.HeadSearch:after
+	content: ""
+	width: 1px
+	height: 25px
+	display: block
+	position: absolute
+	z-index: 5
+	top: 3px
+	right: -32px
+	border-left: 1px solid #8B8B8B
+	transform: rotate(14deg)
+
+
+
+.Obrazec
+		margin: 1px 0px 0px 1px
+
+		width: 100px
+		height: 100px
+
+		background-image: url("../img/LogoFooter.png")
+		background-repeat: no-repeat
+		background-size: 100% 100%
+		background-position: 0% 0%
+
+		font: 1.5em/.9375 'IskraCYR-Regular', sans-serif //24px /15px
+		letter-spacing: -1px
+
+
+
+
+
+//меню
+
+.toggleMenu
+
+	top: 0
+	text-align: center
+	line-height: 48px
+	display: none
+	width: 28px
+	height: 28px
+	margin: 40px 0 0 20px
+	//z-index: 1100
+	span:after,
+	span:before 
+		content: ""
+		position: absolute
+		left: 0
+		top: 9px
+	span:after
+		top: 18px
+	span 
+		position: relative
+		display: block
+	span,
+	span:after,
+	span:before
+		width: 100%
+		height: 5px
+		background-color: #fff
+		transition: all 0.3s
+		backface-visibility: hidden
+		border-radius: 1px
+		box-shadow: 0 0 1px 1px #444444
+ 
+
+
+.toggleMenuOpen
+	position: fixed
+	left: 0
+	z-index: 90
+//добавление стилей крестику
+
+
+.toggleMenuClose
+	position: absolute
+	right: 25px
+	z-index: 110
+	margin: 20px 0 0 0
+	span:before
+		transform: rotate(45deg) translate(-1px, 0px)
+
+.toggleMenuClose 
+	span:after
+		transform: rotate(-45deg) translate(6px, -7px)
+.toggleMenuClose
+	span
+		background-color: transparent
+		box-shadow: none
+
+
+
+
+
+
+.menuHead
+	-webkit-transition: left 0.5s ease-out 0.3s
+	-moz-transition: left 0.5s ease-out 0.3s
+	-o-transition: left 0.5s ease-out 0.3s
+	transition: left 0.5s ease-out 0.3s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//header__bottom-line begin SZ
+
+.header__bottom-line
+	background: rgba(255,255,255,.9)
+	ul
+		//margin: 0
+		padding: 21px 0
+		text-align: center
+		width: 104%
+		margin: 0 2% 0 -2%
+
+		li
+			list-style: none
+			display: inline-block
+			font-size: 18px
+			color: white
+			//text-transform: uppercase
+			margin-right: 23px
+			//letter-spacing: 0.5px
+			//padding: 10px
+			vertical-align: middle
+			span
+				//background: url(../img/love.png) no-repeat
+				background-position: center center				
+				width: 30px
+				height: 30px
+				display: inline-block
+				background-size: contain
+				vertical-align: middle
+				background-position: center center
+				margin: 0 10px 0 0
+		/* Firefox fix */
+		li:-moz-any(li)
+			margin-right: 20px
+
+
+
+
+
+
+
+
+
+
+		li:nth-child(1)
+			span
+				background: url(../img/menu-icon1.png) no-repeat
+				background-position: center center
+		li:nth-child(2)
+			span
+				background: url(../img/menu-icon2.png) no-repeat
+				background-position: center center
+		li:nth-child(3)
+			span
+				background: url(../img/menu-icon3.png) no-repeat
+				background-position: center center
+		li:nth-child(4)
+			span
+				background: url(../img/menu-icon4.png) no-repeat
+				background-position: center center
+		li:nth-child(5)
+			span
+				background: url(../img/menu-icon5.png) no-repeat
+				background-position: center center
+		li:nth-child(6)
+			span
+				background: url(../img/menu-icon6.png) no-repeat
+				background-position: center center
+
+		li
+			.header__BottomHref
+				color: #6b6161 
+				display: block
+				padding: 6px 15px
+				display: inline-block
+				//line-height: 1
+				position: relative
+				transition: all 0.3s
+				vertical-align: middle
+				border-radius: 35px
+				text-decoration: none
+				font: 19px/1 'IskraCYR-Regular', sans-serif
+				//font-weight: 600
+				//letter-spacing: 2px
+			.header__BottomHref_color1:hover
+				box-shadow: 0 0 0 1px #a6bf30
+				text-decoration: none
+				color: #a6bf30
+			.header__BottomHref_color2:hover
+				box-shadow: 0 0 0 1px #ff8b19
+				text-decoration: none
+				color: #ff8b19
+
+
+
+
+
+
+		li:last-child
+			margin-right: 0
+		li:nth-child(5)
+			position: relative
+			&:before
+				width: 2px
+				height: 38px
+				content: ''
+				position: absolute
+				border-left: 1px solid black
+				transform: rotate(16deg)
+				top: 3px
+				left: -6px
+.stickytop 
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	z-index: 10000
+
+
+.header__bottom-line
+	-webkit-transition: left 0.5s ease-out 0.3s
+	-moz-transition: left 0.5s ease-out 0.3s
+	-o-transition: left 0.5s ease-out 0.3s
+	transition: left 0.5s ease-out 0.3s
+
+
+.toggleMenuCloseKatalog
+	position: absolute
+	right: 0
+	z-index: 110
+	margin: 0 0 0 0
+
+	span:before
+		transform: rotate(45deg) translate(-1px, 0px)
+
+.toggleMenuCloseKatalog
+	span:after
+		transform: rotate(-45deg) translate(6px, -7px)
+.toggleMenuCloseKatalog
+	span
+		background-color: transparent
+		box-shadow: none
+
+//header__bottom-line end SZ

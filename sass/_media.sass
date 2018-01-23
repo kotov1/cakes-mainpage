@@ -1,0 +1,506 @@
+@import "vars"
+
+
+@media only screen and (max-width : 1200px)
+
+	.slider_main
+		.slider_content
+			padding-top: 70px
+			padding-bottom: 25px  
+		.slider_descr
+			margin-bottom: 45px
+
+	.shop
+		.shop_heading
+			h2
+				&:before, &:after
+					width: 14%
+		.category
+			min-height: auto
+		.shop_card:hover
+			width: 100% !important
+			left: 0 !important
+		.category-new
+			padding-bottom: 5px
+			div[class*="col"] 
+				.shop_card-wrap
+					min-height: 410px
+					margin-bottom: 28px
+		.shop_card-img
+			max-height: 225px 
+			img
+				// max-width: 100%
+				// width: 100%
+			img[src*="cake1"]
+				width: auto
+			img[src*="pipe"]
+				left: 0 !important
+			img[src*="kruassan"]
+				width: auto
+			img[src*="capcake"]
+				left: 0
+		.shop_card-text
+			min-height: 75px
+		.shop_card-info
+			font-size: .9em
+			.separator
+				margin: 0 10px
+
+
+	.about
+		.slider_item
+			padding: 0 18%
+
+
+
+
+
+
+
+
+
+
+
+	/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 992px)
+
+	.slider_main
+		top: 100px
+		&:after
+			bottom: -3px
+		.slider_img
+			img
+				top: 0
+
+		.slider_content
+			padding: 0
+			top: 55%
+
+	.slick-arrow.slick-next, .slick-arrow.slick-prev
+		top: 58%
+		transform: scale(.8)
+
+
+	.shop
+		padding-top: 140px
+		.shop_heading
+			h2
+				padding-bottom: 15px
+				&:before
+					display: none
+				&:after
+					top: auto
+					bottom: 0
+					left: 50%
+					transform: translateX(-50%)
+					width: 50%
+			p
+				&:first-of-type
+					font-size: 1.2em
+					line-height: 1.4
+				&:last-child
+					font-size: 1em
+					line-height: 1.4
+		.category-new
+			margin-left: 0
+			.shop_card-wrap
+				min-height: 100%
+			div[class*="col"]
+				&:first-child 
+					.shop_card-wrap
+						margin-bottom: 0
+					.shop_card
+						&::before
+							right: auto
+							left: -103px
+							transform: rotate(-90deg)
+							transform-origin: 100% 0 0
+				&:last-child
+					.shop_card-wrap
+						margin-bottom: 0
+
+		.shop_card-img
+			img[src*="cake1"]
+				top: -100px
+
+		.shop_card-info
+			font-size: .7em
+			.separator
+				margin: 0 5px
+
+	section.categories
+		.nav-block
+			background-image: url(../img/nav-block.jpg)
+			background-size: cover
+			background-position: center
+
+			span
+				color: #FFF
+
+
+	.advantages
+		position: relative
+		height: auto
+		padding: 30px 0 100px
+		background-size: 100%
+		background-position: 0 0
+		margin-bottom: -70px 
+		&:before
+			content: ""
+			position: absolute
+			top: 0
+			left: 0
+			z-index: 0
+			display: block
+			width: 100%
+			height: 100%
+			background: rgba(0,0,0,.7)
+		.advantages_content
+			margin: 0
+			flex-direction: column
+			justify-content: space-around
+		.advantages_logo
+			margin-top: 0
+			margin-bottom: 30px
+		.advantages_list
+			width: 100%
+			margin-left: 0
+			li
+				margin-bottom: 40px
+				&:after
+					display: none
+
+
+
+
+
+
+
+
+
+
+
+	/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 768px)
+
+
+	.slider_main
+		top: -6px
+		.slider_img
+			img
+				max-width: 135%
+				width: 135%
+				left: -15%
+		.slider_content
+			width: 90%
+			h1
+				text-align: center
+				font-size: 8em
+		.img-separator
+			&:before, &:after
+				width: 33%
+		.slider_descr
+			display: block
+			span
+				&:first-child
+					display: block
+					text-align: center
+				&.separator
+					display: none
+			.descr_btn
+				margin-top: 20px
+				margin-right: 0
+				padding: 20px
+		.scrollDown
+			// margin-top: 20px
+
+	.shop
+		padding-top: 40px
+		.grid-sizer
+			width: 100%
+			float: none
+
+		.category
+			width: 100%
+			min-height: auto
+			.shop_card-wrap
+				margin-bottom: 15px !important 
+			div[class*="col"]:last-child 
+				.shop_card-wrap
+					margin-bottom: 0 !important 
+			.shop_card
+				&:hover
+					width: 100% !important
+					left: 0px !important
+			.shop_card-info 
+				.separator
+					margin: 0 15px
+		.category-new
+			div[class*="col"] 
+				.shop_card-wrap
+					min-height: auto
+
+		.shop_card-img 
+			img
+				width: 100% !important
+			img[src*="cake1"]
+				top: 0
+			img[src*="pipe"]
+				left: 0 !important
+			img[src*="capcake"]
+				left: 0
+		.shop_card-info
+			justify-content: flex-start
+			font-size: 1em
+			.separator
+				margin: 0 10px
+		.button-and-like 
+			.myButton-favourite 
+				padding: 6.8px 5px !important
+				i
+					left: 1px
+
+
+	.bg-wrap
+		background-position: 0 120%
+
+	.about
+		.svg-line
+			top: 0
+			background-size: cover
+			width: 95%
+
+		.slider_about
+			padding-left: 0
+
+		.slider_item
+			padding: 0
+
+		.slider_img
+			width: 50%
+			margin: 0 auto
+
+	.advantages
+		background-size: cover
+
+		.advantages_content
+			display: block
+
+		.advantages_logo
+			text-align: center
+
+
+
+
+
+	/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 576px)
+
+
+	.slider_main
+		.slider_item
+			height: 500px
+		.slider_img
+			img
+				max-width: 150%
+				width: 150%
+				// left: -15%
+		.slider_content
+			h1
+				font-size: 5em
+		.slider_descr
+			span
+				&:first-child
+					font-size: 1em //16px
+	.shop 
+		.shop_card-text
+			height: auto
+
+	.bg-wrap
+		background-position: 0 100%
+		background-size: 225%
+
+	.categories
+		.colors
+			.nav-block
+				width: 80%
+				margin: 15px auto
+
+	.about
+		.svg-line
+			max-width: 100%
+			top: 0
+			background-size: cover
+
+
+
+	.advantages
+		.advantages_list
+			li
+				margin-bottom: 0
+				&:before
+					transform: scale(.7)
+					top: -6px
+
+
+
+
+
+
+
+	/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 480px)
+
+	.slider_main
+		top: -35px
+		.slider_img
+			img
+				max-width: 250%
+				width: 250%
+				left: -50%
+		.scrollDown
+			a
+				width: 50px
+				height: 50px
+				&:after
+					background-size: cover
+	.shop
+		padding-top: 15px
+		padding-left: 2px
+		padding-right: 2px
+		.shop_heading
+			h2
+				font-size: 3em
+			p
+				&:last-child
+					font-size: 0.9em
+		.category
+			.shop_card-heading
+				text-align: center
+			.shop_card-text
+				p
+					margin-left: 10px
+			.shop_card-info
+				justify-content: space-around
+				font-size: .8em
+				.separator
+					margin: 0 5px
+
+
+	.categories
+		.colors
+			.nav-block
+				width: 100%
+
+
+	.about
+		h2
+			font-size: 2.5em
+			line-height: 1
+			margin-top: 20px
+		.slider_item
+
+		.slider_img
+			width: 80%
+
+
+	.advantages
+		.advantages_logo
+			margin-bottom: 50px
+		.advantages_list
+			li
+				margin-bottom: 30px
+				padding-left: 0
+				text-align: center
+				&:before
+					display: none
+
+
+
+
+
+
+	/**/
+
+
+
+@media only screen and (min-width : 1200px)
+	.shop_card:hover
+		z-index: 10 !important
+		position: absolute !important
+		box-shadow: 0px 20px 50px rgba(0,0,0,.2)
+		.shop_card-post .shop_card-heading
+			padding: 0 11px 0 0 !important
+/**/
+
+@import "blocks/mediaHeader"
+@import "blocks/mediaFooter"
+

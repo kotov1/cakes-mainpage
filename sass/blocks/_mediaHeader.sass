@@ -1,0 +1,471 @@
+@media only screen and (max-width : 1200px)
+
+
+	.NonPadding
+		padding: 0 15px
+
+	.menuHead__ItemText
+		display: none
+
+
+	.Headinf
+		.Headinf__telephone
+			margin: 0 0 0 40px
+
+	.HeadSearch
+		margin: 35px 15px 0 0
+		width: 300px
+	.HeadSearch:after
+		content: none
+
+
+
+
+
+
+	// Каталог
+
+	.header__bottom-line
+		ul
+			li
+				margin-right: 12px
+				.header__BottomHref
+					width: 145px
+					text-align: left
+					padding: 6px 10px
+					vertical-align: top
+					min-height: 50px
+
+				span
+					float: left
+					margin: 0 3px 0 0
+			li:nth-child(5)
+				&:before
+					content: none
+
+
+
+@media only screen and (max-width : 992px)
+
+	.toggleMenu
+		display: block
+
+	.headmain
+		.menuHead__Items
+			li:nth-child(7)
+				padding: 10px 21px
+		.Headinf__telephoneMin
+			display: block
+		.menuHead__ItemTextMini
+			display: block
+	.menuHead
+		display: block
+		//height: 300px
+		//position: fixed
+		background: #4C4C4C
+		width: 100%
+		//max-width: 500px
+		//top: 0
+		//right: 0
+		//left: 0
+		z-index: 1050
+		padding: 20px 0
+		//margin: 0 auto
+		//box-shadow: 0px 0px 10px 3px $gray1
+
+	.menuHead
+		position: fixed
+		left: -100%
+		top: 102px
+		width: 100%
+		//height: 100%
+		z-index: 100
+	.menuHead.ActiveMobMenu
+		left: 0
+
+
+	.HeadinfMain
+		padding: 10px 0
+
+	.headmain
+		min-height: 0
+		.menuHead__Items
+			li
+				float: none
+				padding: 10px 21px
+				text-align: left
+		.menuHead__Href:link
+			color: #fff
+			padding: 0
+			font-size: 20px
+		.menuHead__Href:visited
+			color: #fff
+		.menuHead__Href:hover
+			color: #fff
+		.menuHead__Href:active
+			color: #fff
+		
+		.menuHead__ItemTextKatalogMini
+			display: none
+
+
+		
+	.menuSocial
+		display: none
+	.NameTown
+		display: none
+
+
+	.Headinf 
+		.Headinf__telephone
+			display: none
+	/**/
+	.HeadSearch:before
+		content: none
+
+
+
+	// Каталог
+
+	.header__bottom-line
+		ul
+			width: 108%
+			margin: 0 4% 0 -4%
+			padding: 10px 0
+			li
+				margin-right: 12px
+				.header__BottomHref
+					//width: auto
+					max-width: 105px
+					text-align: left
+					padding: 6px 8px
+					min-height: 75px
+					border-radius: 20px
+					line-height: 0.85
+
+				span
+					float: none
+					display: block
+					margin: 0 0 0 2px
+
+	.toggleMenuCloseKatalog
+		display: none
+
+	.HeadSearch
+		display: none
+
+	.Headinf
+		.Headinf__Logo
+			margin: 0 0 0 60px
+
+
+@media only screen and (max-width : 991px)
+	.Headinf
+		.Headinf__Logo
+			margin: 0 0 0 0
+
+
+
+@media only screen and (max-width : 860px)
+	.Headinf
+		.Headinf__Logo
+			margin: 0 0 0 20px
+
+
+
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+
+	.main
+		header
+			margin-top: -1px
+			position: relative
+			min-height: 103px
+
+
+	.HeadSearchMini
+		width: 60px
+		//height: 50px
+		position: relative
+		float: right
+		margin: 33px 25px 0 0
+		display: none
+		.HeadSearchMini__content
+			width: 100%
+			height: 33px
+			position: relative
+
+		.HeadSearchMini__Text
+			color: #A2A2A2
+			font-size: 16px
+			margin: 0
+			width: 100%
+			height: 33px
+			border: 1px solid #A2A2A2
+			border-radius: 10px
+			padding: 0px 10px
+			background-color: #444444
+			outline: none
+		.HeadSearchMini__logo1
+			position: absolute
+			right: 13px
+			top: -5px
+			width: 30px
+			height: 30px
+			z-index: 10
+			border: 1px solid #A2A2A2
+			border-radius: 50%
+			box-shadow: 0px 0px 0px 3px #444444
+			background-color: #444444
+		.HeadSearchMini__logo2
+			position: absolute
+			right: 12px
+			top: 20px
+			width: 1px
+			height: 17px
+			z-index: 11
+			border-left: 1px solid #A2A2A2
+			transform: rotate(-38deg)
+			box-shadow: 0px 3px 0px 3px #444444
+	.HeadinfMain
+		//padding: 10px 0
+		position: fixed
+
+	.menuHead
+		//max-width: 400px
+
+
+
+
+
+
+	.headmain
+		.menuHead__ItemTextKatalogMini
+			display: block
+		.menuHead__HrefKatalogMini:link
+			display: inline-block
+			font-size: 26px
+			text-transform: uppercase
+			letter-spacing: 2px
+			font-weight: 600
+
+
+	.stickytop 
+		position: fixed
+		top: 0
+		left: -100%
+		right: auto
+		z-index: 1000
+	.header__bottom-line
+		//display: none
+		padding: 21px 0
+		text-align: left
+		width: 100%
+		margin: 0 auto
+		position: fixed
+		top: 102px
+		left: -100%
+		z-index: 200
+		//height: 100%
+		ul
+			//padding: 21px 0
+			text-align: left
+			width: 100%
+			margin: 0 auto
+			//position: fixed
+			//top: 102px
+			//left: -5%
+			//z-index: 200
+			li
+				display: block
+				width: 100%
+				margin: 0
+				padding: 0 0 0 0
+				vertical-align: middle
+				display: inline-block
+				height: 50px
+				//line-height: 30px		
+				.header__BottomHref
+					//width: auto
+					max-width: none
+					text-align: left
+					padding: 10px 0
+					min-height: 20px
+					border-radius: 20px
+					line-height: 25px
+					width: 100%
+					display: inline-block
+					vertical-align: middle
+
+				span
+					float: left
+					display: inline-block
+					vertical-align: middle					
+					margin: 0 5px 0 2px				
+				.header__BottomHref_color1:hover
+					box-shadow: none
+				.header__BottomHref_color2:hover
+					box-shadow: none
+
+	.header__bottom-line.ActiveKatalog
+		left: 0
+
+	.toggleMenuCloseKatalog
+		display: block
+
+
+
+
+
+@media only screen and (max-width : 767px)
+	.Headinf
+		.Headinf__Logo
+			margin: 0 0 0 0
+			height: auto
+
+	.HeadKabinet
+		height: auto
+		.HeadKabinetKart
+			height: auto
+
+
+
+
+
+@media only screen and (max-width : 650px)
+	.Headinf 
+		.Headinf__Logo
+			margin: 0 0 0 20px
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 576px)
+
+
+	.Headinf
+		width: 25%
+
+		.Headinf__Logo
+			margin: 0 0 0 50px
+			width: 100%
+	.HeadKabinet 
+		.HeadKabinetKart
+			width: 75px	
+
+
+
+
+
+
+
+
+
+
+	/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 480px)
+
+
+	.HeadKabinet
+		margin: 15px 0 0 0
+		.HeadKabinetFace
+			display: none
+		.HeadKabinetLove
+			display: none
+		.HeadKabinetKart	
+			.HeadKabinetKart__Korzina
+				margin: -15px 0 0 5px
+
+	.HeadSearchMini
+		margin: 15px 15px 0 0
+		.HeadSearchMini__Text
+			height: 25px
+		.HeadSearchMini__logo1
+			width: 25px
+			height: 25px
+		.HeadSearchMini__logo2
+			top: 16px
+
+	.menuHead
+		top: 95px
+	.header__bottom-line
+		top: 95px
+
+
+	.toggleMenuOpen
+		margin: 28px 0 0 20px
+
+	/**/
+
+
+
+
+@media only screen and (max-width : 440px)
+
+
+	.menuHead
+		top: 88px
+	.header__bottom-line
+		top: 88px
+
+	/**/
+
+
+
+
+
+@media only screen and (max-width : 400px)
+
+
+	.menuHead
+		top: 80px
+	.header__bottom-line
+		top: 80px
+
+	/**/
+
+
+
+@media only screen and (max-width : 360px)
+
+
+	.menuHead
+		top: 73px
+	.header__bottom-line
+		top: 74px
+
+	/**/
+
+
+/* IE 10+ fix */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+	.select-wrap select::-ms-expand
+		display: none
