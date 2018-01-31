@@ -1,0 +1,22 @@
+{
+  "name": "cakes-mainpage",
+  "homepage": "https://github.com/kotov1/cakes-mainpage",
+  "authors": [
+    "Petr Petukhov <kotov0991@gmail.com>"
+  ],
+  "description": "page fo porfolio",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-carousel": "^1.8.1",
+    "bootstrap": "^4.0.0",
+    "components-font-awesome": "^4.7.0"
+  }
+}
