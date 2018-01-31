@@ -4912,7 +4912,7 @@ header {
 
   /* */
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .slider_main {
     top: -6px;
   }
@@ -4981,6 +4981,7 @@ header {
     top: 0;
   }
   .shop .shop_card-img img[src*="pipe"] {
+    width: 106% !important;
     left: 0 !important;
   }
   .shop .shop_card-img img[src*="capcake"] {
